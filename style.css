@@ -9,17 +9,97 @@ img {
   height: 200px;
 }
 
-/* sezione lezioni */
-
-h1, #lezioni {
+#lezioni, #steps, #why {
   text-align: center;
+  margin-top: 100px;
+
+}
+.container div {
+  padding: 10px;
 }
 
-#lezioni {
-  margin-bottom: 100px;
+h3 {
+  padding: 20px;
 }
 
-/* sezione steps */
-#steps {
+/* sezione steps e why */
+.grey {
   background-color: #F9F9F9;
+}
+
+/* sezione why */
+#why img {
+  background-color: #428bca;
+  border-radius: 50%;
+  padding: 30px;
+}
+
+/* display telefonino */
+@media screen and (max-width: 768px) {
+  #lezioni, #steps, #why {
+    margin-top: 10px;
+  }
+
+  h1 {
+    font-size: 1.8em;
+  }
+
+  img {
+    width: 35%;
+    height: auto;
+  }
+
+  h3 {
+    font-size: 1.4em;
+  }
+
+  p {
+    font-size: 1.2em;
+  }
+
+  .bordino {
+    padding-bottom: 10px;
+    border-bottom: solid 1px grey;
+  }
+
+}
+
+@media screen and (min-width: 769px) and (max-width: 992px) {
+  #lezioni, #steps, #why {
+    margin-top: 10px;
+  }
+
+  h1 {
+    font-size: 2.3em;
+  }
+
+  img {
+    height: 150px;
+    width: auto;
+  }
+
+  h3 {
+    font-size: 1.7em;
+  }
+
+  p {
+    font-size: 1.3em;
+  }
+
+}
+
+@media screen and (min-width: 993px) {
+
+  h1 {
+    font-size: 2.5em;
+  }
+
+  h3 {
+    font-size: 1.8em;
+  }
+
+  p {
+    font-size: 1.5em;
+  }
+
 }
