@@ -1,0 +1,25 @@
+/* regole generali */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  height: 200px;
+}
+
+/* sezione lezioni */
+
+h1, #lezioni {
+  text-align: center;
+}
+
+#lezioni {
+  margin-bottom: 100px;
+}
+
+/* sezione steps */
+#steps {
+  background-color: #F9F9F9;
+}
